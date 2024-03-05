@@ -1,4 +1,4 @@
-# doKown app is the best Todo appfor manage your Tasks
+# doKown app is the best Todo app for manage your Tasks
 
 A new Flutter project.
 
