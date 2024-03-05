@@ -1,0 +1,18 @@
+
+Platform  Firebase App Id
+android   1:1053896196376:android:854336ef90a5173b275e6d
+ios       1:1053896196376:ios:cfd2805f65c4d69d275e6d
+
+
+
+
+> Task :app:signingReport
+Variant: debug
+Config: debug
+Store: /root/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: 4C:24:7A:4E:E7:00:C5:7E:0D:F7:98:A6:62:01:CC:DA
+SHA1: A1:02:5C:FB:61:E8:06:94:69:C1:55:83:A7:66:74:23:75:F6:A1:2A
+SHA-256: AA:9D:1B:74:DD:45:89:04:E2:CD:E0:F7:EB:61:82:1A:7C:C8:CD:CC:11:8E:8A:28:01:1B:7F:03:32:23:95:97
+Valid until: Monday, April 28, 2053
+
