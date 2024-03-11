@@ -2,8 +2,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverpod_todo2/common/helpers/db_helpers.dart';
-import 'package:riverpod_todo2/common/routes/routes.dart';
+
+import '../../../common/helpers/db_helpers.dart';
 import '../../../common/routes/routes.dart';
 import '../../../common/widgets/showDialogue.dart';
 
