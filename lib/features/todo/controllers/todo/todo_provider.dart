@@ -2,10 +2,10 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:riverpod_todo2/common/helpers/db_helpers.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
 
+import '../../../../common/helpers/db_helpers.dart';
 import '../../../../common/models/task_model.dart';
+
 part 'todo_provider.g.dart';
 
 @riverpod

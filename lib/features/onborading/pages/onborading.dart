@@ -2,11 +2,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
-import 'package:riverpod_todo2/common/widgets/reusable_text.dart';
-import 'package:riverpod_todo2/common/widgets/width_spacer.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+
+import '../../../common/utils/constants.dart';
+import '../../../common/widgets/appstyle.dart';
+import '../../../common/widgets/reusable_text.dart';
+import '../../../common/widgets/width_spacer.dart';
 
 import '../widgets/page_one.dart';
 import '../widgets/page_two.dart';

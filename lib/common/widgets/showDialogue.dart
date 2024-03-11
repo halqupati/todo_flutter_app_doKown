@@ -1,12 +1,12 @@
 
-
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
-import 'package:riverpod_todo2/common/widgets/reusable_text.dart';
+
+import '../utils/constants.dart';
+
+import 'appstyle.dart';
+import 'reusable_text.dart';
 
 showAlertDialog({
   required BuildContext context,

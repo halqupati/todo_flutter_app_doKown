@@ -2,10 +2,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/features/todo/widgets/todo_title.dart';
 
+import '../../../common/utils/constants.dart';
 import '../../../common/models/task_model.dart';
+
+import '../widgets/todo_title.dart';
 import '../controllers/todo/todo_provider.dart';
 
 class ComplatedTask extends ConsumerWidget {

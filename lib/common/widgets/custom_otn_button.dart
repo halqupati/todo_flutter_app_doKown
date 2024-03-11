@@ -1,8 +1,8 @@
 
-
 import 'package:flutter/material.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
-import 'package:riverpod_todo2/common/widgets/reusable_text.dart';
+
+import 'appstyle.dart';
+import 'reusable_text.dart';
 
 class CustomOtlButton extends StatelessWidget {
   const CustomOtlButton({Key? key, this.onTap, required this.width, required this.height, this.color2, required this.color, required this.text}) : super(key: key);
