@@ -1,20 +1,18 @@
 import 'package:country_picker/country_picker.dart';
-import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
-import 'package:riverpod_todo2/common/widgets/custom_otn_button.dart';
-import 'package:riverpod_todo2/common/widgets/hieght_spacer.dart';
-import 'package:riverpod_todo2/common/widgets/showDialogue.dart';
-import 'package:riverpod_todo2/features/auth/controllers/auth_controller.dart';
-import 'package:riverpod_todo2/features/auth/pages/otp_page.dart';
-import 'package:riverpod_todo2/features/auth/repository/auh_repository.dart';
 
+import '../../../common/utils/constants.dart';
+import '../../../common/widgets/appstyle.dart';
+import '../../../common/widgets/custom_otn_button.dart';
+import '../../../common/widgets/hieght_spacer.dart';
+import '../../../common/widgets/showDialogue.dart';
 import '../../../common/widgets/custom_text.dart';
 import '../../../common/widgets/reusable_text.dart';
+
 import '../controllers/code_provider.dart';
+import '../controllers/auth_controller.dart';
 
 class LoginPage extends ConsumerStatefulWidget {
   const LoginPage({Key? key}) : super(key: key);

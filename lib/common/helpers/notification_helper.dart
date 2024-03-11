@@ -110,7 +110,6 @@ class NotificationsHelper{
             importance: Importance.max,
             priority: Priority.max,
         )),
-        androidAllowWhileIdle: true,
         uiLocalNotificationDateInterpretation:
          UILocalNotificationDateInterpretation. absoluteTime,
         matchDateTimeComponents: DateTimeComponents.time,
@@ -122,7 +121,7 @@ class NotificationsHelper{
   void _configureSelectNotificationSubject() { 
     selectNotificationSubject.stream.listen((String? payload) async {
       var title = payload!.split('|')[0];
-      var body = payload!.split('|')[1];
+      var body = payload.split('|')[1];
       showDialog(
         context: ref.context,
         builder: (BuildContext context) =>
