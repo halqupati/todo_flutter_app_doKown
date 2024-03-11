@@ -2,11 +2,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
-import 'package:riverpod_todo2/common/widgets/hieght_spacer.dart';
-import 'package:riverpod_todo2/common/widgets/reusable_text.dart';
-import 'package:riverpod_todo2/common/widgets/width_spacer.dart';
+import '../../../common/utils/constants.dart';
+import '../../../common/widgets/appstyle.dart';
+import '../../../common/widgets/hieght_spacer.dart';
+import '../../../common/widgets/reusable_text.dart';
+import '../../../common/widgets/width_spacer.dart';
 
 class TodoTitle extends StatelessWidget {
   const TodoTitle({Key? key, this.color, this.title, this.description, this.start, this.end, this.editWidget, this.delete, this.switcher}) : super(key: key);

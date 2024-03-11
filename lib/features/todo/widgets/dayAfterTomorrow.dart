@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverpod_todo2/features/todo/controllers/todo/todo_provider.dart';
-import 'package:riverpod_todo2/features/todo/widgets/todo_title.dart';
 
 import '../../../common/utils/constants.dart';
 import '../../../common/widgets/expansion_tile.dart';
+
+import '../controllers/todo/todo_provider.dart';
+import '../widgets/todo_title.dart';
 import '../controllers/xpantion_provider.dart';
 import '../pages/update_task.dart';
 

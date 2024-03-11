@@ -1,8 +1,9 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
+
+import '../../common/utils/constants.dart';
+import 'appstyle.dart';
 
 class CustomTextField extends StatelessWidget {
   const CustomTextField({Key? key, this.keyboardType, required this.hintText, this.suffixIcon, this.prefixIcon, this.hintStyle, required this.controller, this.onChanged}) : super(key: key);

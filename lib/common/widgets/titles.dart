@@ -1,12 +1,15 @@
 
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
-import 'package:riverpod_todo2/common/widgets/hieght_spacer.dart';
-import 'package:riverpod_todo2/common/widgets/reusable_text.dart';
-import 'package:riverpod_todo2/common/widgets/width_spacer.dart';
-import 'package:riverpod_todo2/features/todo/controllers/todo/todo_provider.dart';
+
+import '../../features/todo/controllers/todo/todo_provider.dart';
+
+import '../utils/constants.dart';
+
+import 'appstyle.dart';
+import 'hieght_spacer.dart';
+import 'reusable_text.dart';
+import 'width_spacer.dart';
 
 class BottomTitles extends StatelessWidget {
   const BottomTitles({Key? key, required this.text, required this.text2, this.clr}) : super(key: key);

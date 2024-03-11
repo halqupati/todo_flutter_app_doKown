@@ -3,11 +3,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
-import 'package:riverpod_todo2/common/widgets/hieght_spacer.dart';
-import 'package:riverpod_todo2/common/widgets/reusable_text.dart';
-import 'package:riverpod_todo2/common/widgets/width_spacer.dart';
+
+import '../../../common/utils/constants.dart';
+import '../../../common/widgets/appstyle.dart';
+import '../../../common/widgets/hieght_spacer.dart';
+import '../../../common/widgets/reusable_text.dart';
 
 class NotificationPage extends StatelessWidget {
   const NotificationPage({Key? key, this.payload}) : super(key: key);
@@ -58,7 +58,7 @@ class NotificationPage extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          ReusableText(text:"Today => ",
+                          ReusableText(text:"Today => $date",
                               style: appstyle(12, AppConst.kBkDark, FontWeight.bold)),
 
                           ReusableText(text: "From: $start   To: $finish",

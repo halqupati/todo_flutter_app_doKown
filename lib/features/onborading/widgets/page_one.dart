@@ -1,10 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/appstyle.dart';
-import 'package:riverpod_todo2/common/widgets/hieght_spacer.dart';
-import 'package:riverpod_todo2/common/widgets/reusable_text.dart';
+
+import '../../../common/utils/constants.dart';
+import '../../../common/widgets/appstyle.dart';
+import '../../../common/widgets/hieght_spacer.dart';
+import '../../../common/widgets/reusable_text.dart';
 
 class PageOne extends StatelessWidget {
   const PageOne({Key? key}) : super(key: key);

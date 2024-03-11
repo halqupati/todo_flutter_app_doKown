@@ -1,7 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:riverpod_todo2/common/utils/constants.dart';
-import 'package:riverpod_todo2/common/widgets/titles.dart';
+
+import '../../../common/utils/constants.dart';
+import 'titles.dart';
 
 class XpansionTile extends StatelessWidget {
   const XpansionTile({Key? key,

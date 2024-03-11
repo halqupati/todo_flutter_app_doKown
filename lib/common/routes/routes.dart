@@ -1,8 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:riverpod_todo2/features/auth/pages/login_page.dart';
-import 'package:riverpod_todo2/features/auth/pages/otp_page.dart';
-import 'package:riverpod_todo2/features/todo/pages/homepage.dart';
 
+import 'package:flutter/material.dart';
+
+import '../../features/auth/pages/login_page.dart';
+import '../../features/auth/pages/otp_page.dart';
+import '../../features/todo/pages/homepage.dart';
 import '../../features/onborading/pages/onborading.dart';
 
 class Routes{
